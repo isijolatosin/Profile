@@ -1,0 +1,259 @@
+
+body {
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+button {
+  margin: 20px 10px 0 0;
+  padding: 15px 50px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat-Black";
+}
+
+h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+#title {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1) ), url("deskview1.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.navbar {
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  margin: 10px 10px 0 0;
+  padding: 0 20px 0 0;
+  border-right: 2px solid #ff4c68;
+}
+
+.nav-item {
+  padding: 0 0 0 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 4.5%;
+}
+
+.page-content {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.page-text {
+  text-align: left;
+}
+
+.p-title {
+  letter-spacing: 2px;
+  padding: 80px 0 30px;
+}
+
+.p-text {
+  font-family: "Montserrat";
+}
+
+.request-fas.fas.fa-angle-right {
+  padding-left: 10px;
+}
+
+.explore2 {
+  height: 150px;
+}
+
+.explore {
+  border: 3px solid #fff;
+  border-radius: 100px;
+  cursor: pointer;
+  margin: 50px auto 35px;
+  text-align: center;
+  height: 50px;
+  width: 20px;
+}
+
+em {
+  color: #ff4c68;
+}
+
+.explore-container {
+  text-align: center;
+}
+
+.explore:hover {
+  opacity: 0.5;
+}
+
+#features {
+  background-color: #f7f7f7;
+  color: #3f3f44;
+  text-align: center;
+}
+
+.feature-heading {
+  padding: 50px 20px 30px;
+}
+.feature-p {
+  padding: 0 50px;
+}
+
+.feature-container {
+  padding: 3% 15% 3%;
+  text-align: left;
+}
+
+.feature-box {
+  padding: 20px;
+}
+
+.feature-icon {
+  color: #ff4c68;
+  float: left;
+  padding-right: 20px;
+}
+
+.video-container {
+  background-color: #f7f7f7;
+  color: #3f3f44;
+  padding: 0 15% 3%;
+  text-align: center;
+}
+
+.animation-icon {
+  color: #ff4c68;
+  padding-right: 20px;
+}
+
+.video-head {
+  background-color: #f7f7f7;
+  color: #3f3f44;
+  margin-bottom: 0;
+  padding: 0 0 1% 15%;
+}
+
+.f-vid1 {
+  background-color: #dddddd;
+  float: left;
+  margin: 0 50px 30px 0;
+}
+
+.f-vid2 {
+  background-color: #dddddd;
+  float: right;
+  margin: 0 0 30px 50px;
+}
+
+.vid-para {
+  text-align: left;
+}
+
+
+/* About.... */
+.about-container {
+  color: #3f3f44;
+  padding: 3% 15% 4%;
+}
+
+.about-image {
+  float: left;
+  padding: 0 30px 30px 0;
+}
+
+.ab {
+  border-bottom: 2px solid #ff4c68;
+  padding-bottom: 15px;
+}
+
+.about-p {
+  padding: 30px 0;
+}
+
+.about-heart {
+  float: left;
+  padding: 4px 15px 0 0;
+}
+
+#footer {
+  background-color: #fff;
+  color: #3f3f44;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.footer-image {
+  float: left;
+  padding: 0 30px 0 200px;
+}
+
+.social-icon {
+  color: #3f3f44;
+  margin: 10px 10px;
+}
+
+.fas {
+  padding-left: 0;
+}
+
+.footer-p {
+  color: #e8e4e1;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.explore-content {
+  display: none;
+}
+
+.press {
+  box-shadow: 0 0 3px 3px #fff;
+}
+
+
+@media (max-width: 992px) {
+
+  .feature-heading {
+    padding: 50px 20px 30px;
+  }
+
+  .p-title {
+    padding: 20px 0 30px;
+  }
+
+  .explore-container {
+    margin: 50px auto 0;
+  }
+
+  .explore {
+    margin: 0 auto 20px;
+  }
+
+  .explore2 {
+    height: 50px;
+  }
+
+  .feature-box {
+    padding: 20px;
+  }
+
+  .video-container {
+    padding: 0;
+  }
+
+  .footer-image {
+    padding: 0 30px 0 10px;
+  }
+}
